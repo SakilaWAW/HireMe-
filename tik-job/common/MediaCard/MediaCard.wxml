@@ -1,0 +1,11 @@
+<!-- 这是自定义组件的内部WXML结构 -->
+<view class="media-card">
+  <image style="width: {{width}}px; height: {{height}}px;" mode="aspectFill" src="{{cover}}"></image>
+  <view class="body">
+    <view class="title">{{title}}</view>
+    <view class="footer">
+      <view>{{author}}</view>
+      <view>{{date}}</view>
+    </view>
+  </view>
+</view>

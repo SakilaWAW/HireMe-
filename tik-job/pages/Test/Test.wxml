@@ -1,0 +1,16 @@
+<view class='head'>
+  职位名称：
+</view>
+<view class='contain'>
+  {{index+1}}.{{currentQuestion.content}}
+  <view wx:if="{{currentQuestion.id==2}}">
+    <view  class='option' wx:for="{{currentQuestion.option}}">
+    <view bindtap='select' data-index='{{index}}'>{{OPTION[index]}}.{{item}} </view>
+    </view>
+  </view>
+  <view wx:else>
+    <textarea></textarea>
+  </view>
+</view>
+<button wx:if="{{index!=0}}" bindtap='lastQuestion'>上一题</button>
+<button wx:if="{{index<questions.length-1}}"bindtap='nextQuestion'>下一题</button>

@@ -1,0 +1,4 @@
+<!--common/RecordBtn/RecordBtn.wxml-->
+<view class="record-btn-outer">
+  <view class="record-btn-inner" style="background: {{isActive?'red':'#5657FA'}}" bindtap="toggleRecord"></view>
+</view>

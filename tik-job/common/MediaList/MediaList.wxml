@@ -1,0 +1,7 @@
+<view>
+  <!-- 以下是对一个自定义组件的引用 -->
+  <media-card></media-card>
+  <media-card></media-card>
+  <media-card></media-card>
+  <media-card></media-card>
+</view>

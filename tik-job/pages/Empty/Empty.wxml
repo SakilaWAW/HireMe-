@@ -1,0 +1,2 @@
+<!--pages/Empty/Empty.wxml-->
+<image class='BG' src='../../images/BG2.png' display="scaleToFill"  style='position:fixed;top:0rpx'></image>

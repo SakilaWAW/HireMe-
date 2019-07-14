@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "media-card": "../../common/MediaCard/MediaCard"
+  },
+  "component": true
+}

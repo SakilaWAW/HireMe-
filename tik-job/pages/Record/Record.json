@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "recorder": "Recorder/Recorder",
+    "record-btn": "RecordBtn/RecordBtn",
+    "timer-indicator": "TimerIndicator/TimerIndicator"
+  }
+}

@@ -1,0 +1,20 @@
+<!--pages/Record/Record.wxml-->
+<view class="layer record-page">
+  <view class="top-bar">
+    <view class="iconfont icon-font-left-arrow text-btn"> Back</view> 
+    <view class="text-btn">Question Content</view>
+  </view>
+  <recorder class="record-body"></recorder>
+  <view class="bottom-bar">
+    <timer-indicator
+      second="{{second}}"
+      active="{{isRecording}}"
+      class="timer-container">
+    </timer-indicator>
+    <view class="iconfont icon-font-mark operate-btn"></view> 
+    <record-btn bind:toggleRecord="toggleRecord" class="record-btn operate-btn" isActive="{{isRecording}}"></record-btn>
+    <view class="iconfont icon-font-text operate-btn"></view> 
+  </view>
+  <cover-image class="{{displaySave?'save-modal display-modal':'save-modal hide-modal'}}" src="../../images/save.png" bindtap="saveVideo"></cover-image>
+  <cover-image class="{{displaySuccess?'save-modal display-modal':'save-modal hide-modal'}}"  src="../../images/success.png" bindtap="jumpToNextPage"></cover-image>
+</view>

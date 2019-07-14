@@ -1,0 +1,22 @@
+button{
+  
+  width:590rpx;
+  height:120rpx;
+  background:rgba(255,255,255,1);
+  box-shadow:0rpx 5rpx 15rpx 0rpx rgba(68,118,255,0.44);
+  border-radius:100rpx;
+  font-size: 40rpx;
+  font-family:Helvetica;
+  text-align: center;
+  display: table-cell;
+  color: #4850FC;
+  vertical-align:middle;
+  position: fixed;
+  top: 617px;
+  left: 40px;
+}
+.BG{
+  width:100%;
+  height: 100%;
+  z-index: -1;
+}

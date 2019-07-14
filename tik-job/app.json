@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/Welcome/Welcome",
+    "pages/JobList/JobList",
+    "pages/Init/Init",
+    "pages/Test/Test",
+    "pages/QuestionList/QuestionList",
+    "pages/Empty/Empty",
+    "pages/Record/Record",
+    "pages/Analysis/Analysis",
+    "pages/Home/Home"
+  ],
+  "tabBar": {
+    "selectedColor": "#9F91F8",
+    "color":"#343434",
+    "list": [
+      {
+        "pagePath": "pages/JobList/JobList",
+        "text": "Interview",
+        "iconPath": "images/interview.png",
+        "selectedIconPath": "images/interview.png"
+      },
+      {
+        "pagePath": "pages/Empty/Empty",
+        "text": "Discover",
+        "iconPath": "images/discover.png",
+        "selectedIconPath": "images/discover.png"
+      },
+      {
+        "pagePath": "pages/Empty/Empty",
+        "text": "Post",
+        "iconPath": "images/post.png",
+        "selectedIconPath": "images/post.png"
+      },
+      {
+        "pagePath": "pages/Empty/Empty",
+        "text": "Class",
+        "iconPath": "images/class.png",
+        "selectedIconPath": "images/class.png"
+      },
+      {
+        "pagePath": "pages/Empty/Empty",
+        "text": "Me",
+        "iconPath": "images/me.png",
+        "selectedIconPath": "images/me.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

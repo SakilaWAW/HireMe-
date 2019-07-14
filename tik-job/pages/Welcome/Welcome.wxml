@@ -1,0 +1,3 @@
+<button bindtap='goInit'>Login</button>
+<image class='BG' src='../../images/BG1.png' display="widthFix"  style='position:fixed;top:0rpx'></image>
+

@@ -1,0 +1,27 @@
+<view class="single">
+<view style='width:100%;display:flex;flex-direction:row; margin:14rpx;'>
+<view class='first' style=''>{{demand.job}}</view>
+<view class='first' style="">￥{{demand.salary}}</view>
+<image src='../../images/{{demand.company}}.png'></image>
+<view class='second'>{{demand.company}}</view>
+</view>
+<view style='width:100%;display:flex;flex-direction:row;margin:14rpx;'>
+<view class='second'>{{demand.time}}</view>
+<view class='td' style="margin-left:144px"> <image class='icon' src='../../images/icon1.png'></image>{{demand.num}} </view>
+<view class='td' style="margin-left:25px"> <image class='icon' src='../../images/icon2.png'></image>{{demand.num}}</view>
+</view>
+</view>
+<view class='single' wx:for="{{questions}}"  id="{{index}}">
+<view class='container'>
+<view class="first" style='width:224px;'>{{index+1}}.{{item.content}}</view>
+<view class='td'style='margin-right:25px;'> <image class='icon' src='../../images/icon1.png'></image>18 </view>
+<view class='td'> <image class='icon' src='../../images/icon2.png'></image>9</view>
+</view>
+<view class='container'>
+<view class='second' style='width:163px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;'>{{item.title}}</view>
+<button style='width:62px;height18px;font-size:12px;margin-left:23px'>review</button>
+<button bindtap='goTest'  style='width:62px;height18px;font-size:12px;margin-left:8px'>start</button>
+</view>
+
+</view>
+<button style='position:fixed;bottom:31px;right:15px;width:115px;height:28px'>Submit</button>

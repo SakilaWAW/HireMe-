@@ -1,0 +1,5 @@
+<!--pages/Record/TimerIndicator/TimerIndicator.wxml-->
+<view class="timer-container">
+  <view class="badge" style="display:{{active?'inline-block':'none'}}"></view>
+  <text>00:00:{{second<10?'0'+second:second}}</text>
+</view>

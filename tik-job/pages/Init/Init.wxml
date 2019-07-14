@@ -1,0 +1,17 @@
+
+<view class='second' style='padding-top:253px; width:90%'>
+Which of the following job do you want to take?
+</view>
+<view class="options">
+  <button id="{{index}}" class='{{select[index]==1?"single-select":"single"}}' wx:for="{{kind}}" data-kind='{{item}}' bindtap='select'>
+  {{item}}
+  </button>
+</view>
+<button class='start' bindtap='submit'>Start Exploring</button>
+<view class='second' style='margin-top:42rpx;width:83%'>Don’t know which job suits you? Do a test!</view>
+<view class='options' style=' justify-content: space-around;'>
+  <button class='single'>SPS</button>
+  <button class='single'>MBTI</button>
+</view>
+<image class='BG' src='../../images/BG2.png' display="scaleToFill"  style='position:fixed;top:0rpx'></image>
+

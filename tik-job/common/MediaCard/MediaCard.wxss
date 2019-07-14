@@ -1,0 +1,21 @@
+/* 这里的样式只应用于这个自定义组件 */
+.media-card {
+  border-radius: 2%;
+  display: inline-block;
+}
+.title {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.body {
+  padding: 5px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: rgb(96, 96, 96);
+  padding-top: 5px;
+}

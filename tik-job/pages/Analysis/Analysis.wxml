@@ -1,0 +1,10 @@
+<!--pages/Analysis/Analysis.wxml-->
+<view class="analysis-page-container">
+  <image class="analysis-statistics" src="../../images/score.png" mode="widthFix"></image>
+  <video class="analysis-video" src="http://www.shuiniaowuyu.top/static/images/post.mp4"></video>
+  <image class="analysis-curve" src="../../images/curve.png" mode="widthFix"></image>
+  <image class="analysis-detail" src="../../images/content.png" mode="widthFix"></image>
+  <view class="bottom-bar">
+    <button class="expert-btn">Expert Analysis</button>
+  </view>
+</view>

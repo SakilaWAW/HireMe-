@@ -1,0 +1,13 @@
+<view id="{{index}}" class="single" wx:for="{{demands}}" bindtap='goBank'>
+<view style='width:100%;display:flex;flex-direction:row; margin:14rpx;'>
+<view class='first' style=''>{{item.job}}</view>
+<view class='first' style="">￥{{item.salary}}</view>
+<image src='../../images/{{item.company}}.png'></image>
+<view class='second'>{{item.company}}</view>
+</view>
+<view style='width:100%;display:flex;flex-direction:row;margin:14rpx;'>
+<view class='second'style="margin-right:144px;">{{item.time}}</view>
+<view class='second'style="margin-right:25px;"><image class='icon' src="../../images/icon1.png"></image>{{item.num}}</view>
+<view class='second'><image class='icon' src="../../images/icon2.png"></image>{{item.num}}</view>
+</view>
+</view>
